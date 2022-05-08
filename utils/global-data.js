@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'Knowles Digital';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'The IT Side of Technical Difficulties';
+    : 'Technical Difficulties';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'Copyright 2022. All rights reserved.';
